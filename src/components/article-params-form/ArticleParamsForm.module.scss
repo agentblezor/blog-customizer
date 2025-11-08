@@ -1,9 +1,10 @@
 .container {
 	position: fixed;
+	
 	left: 0;
 	width: 616px;
 	height: 100%;
-	overflow: scroll;
+	overflow: none;
 	transform: translate(-616px);
 	transition: transform 0.5s ease;
 }
@@ -23,10 +24,12 @@
 	padding: 50px 31px;
 	background-color: #ffffff;
 	border-right: 1px solid #000000;
+	gap: 50px;
 }
 
 .bottomContainer {
 	display: flex;
 	justify-content: space-between;
 	margin-top: auto;
+	padding-top: 20px;
 }
